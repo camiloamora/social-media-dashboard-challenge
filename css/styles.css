@@ -190,3 +190,36 @@ h2 {
 .card-small-percentage img {
     margin-right: 5px;
 }
+
+@media screen and (min-width:480px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 25px;
+    }
+    .wrapper {
+        max-width: 1444px;
+        margin:auto;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 25px;
+    }
+    .wrapper {
+        max-width: 1444px;
+        margin:auto;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 25px;
+    }
+    .wrapper {
+        max-width: 1444px;
+        margin:auto;
+    }
+}
